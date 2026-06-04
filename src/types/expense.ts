@@ -17,4 +17,4 @@ export interface Expense {
 
 export type ExpenseAction = 
     | { type: 'ADD_EXPENSE'; payload: Expense }
-    | { type: 'DELETE_EXPENSE'; payload: string };
+    | { type: 'DELETE_EXPENSE'; id: string };
