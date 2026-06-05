@@ -24,7 +24,7 @@ export function ExpenseList({ expenses, onDelete }: Props) {
                             <span className="font-bold">€{expense.amount.toFixed(2)}</span>
                             <button
                                 onClick={() => onDelete(expense.id)}
-                                className="text-red-400 hover:text-red-600 transition text-sm"
+                                className="text-red-400 hover:text-red-600 transition text-sm cursor-pointer"
                             >
                                 Delete
                             </button>

@@ -47,7 +47,7 @@ export function ExpenseForm({ onAdd }: Props) {
                     <option key={cat} value={cat}>{cat}</option>
                 ))}
             </select>
-            <button type="submit" className="bg-blue-500 text-white p-2 hover:bg-blue-600 transition">Add Expense</button>
+            <button type="submit" className="bg-blue-500 text-white p-2 hover:bg-blue-600 transition rounded-xl cursor-pointer">Add Expense</button>
         </form>
         );
 }
