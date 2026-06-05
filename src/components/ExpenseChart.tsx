@@ -5,7 +5,7 @@ interface Props {
     expenses: Expense[];
 }
 
-const COLORS = [ '#3b82f6', '#f97316', '#8b5cf6', '#10b981', '#f59e0b'];
+const COLORS = [ '#3bb2f6', '#eb81d8', '#8b5cf6', '#10b981', '#f59e0b'];
 
 export function ExpenseChart({ expenses }: Props){
     const data = expenses.reduce<{ name: string; value: number; }[]>((acc, e) => {
